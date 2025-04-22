@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #002daa;
+    --laranja-claro: #001cb8;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
-
+    --alto-contraste-link: #4c76ff;
 }
 
 body {
@@ -21,24 +20,11 @@ header {
 
 section {
     padding-bottom: 5rem;
-    .alto-contraste #tropicalia {
-        background: none;
-    }
-    
-    
-    .alto-contraste #galeria {
-        background-color: var(--alto-contraste-fundo);
-    }
-    
-    
-    .alto-contraste .fundo-galeria {
-        background: non
-    
 }
 
 
 .nav-link {
-    color: #1435f1;
+    color: #0027d6;
     font-weight: 600;
 }
 
@@ -78,9 +64,7 @@ section {
     border-radius: 30px;
     border: none;
     width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
-    /* Convertido para em */
     align-content: center;
 
 }
@@ -123,10 +107,13 @@ h2 {
 
 }
 
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
 }
 
 #contato {
-    
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -145,14 +132,13 @@ h2 {
 }
 
 .formulario button {
-    background-color: #231ff0;
+    background-color: #0045db;
     border: none;
     font-weight: bold;
 }
 
-/* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #4954e9;
+    background-color: #F1EDEF;
 }
 .menu-acessibilidade{
     position: fixed;
@@ -160,19 +146,21 @@ h2 {
     right:20px;
     z-index: 1000;
 }
-.rotacao-botao{ 
+
+.rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
 }
+
 .opcoes-acessibilidade{
     margin-top:10px;
     display: flex;
     flex-direction: column;
 }
+
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
-
 .apresenta-lista{
     display: none;
 }
